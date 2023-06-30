@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>House of Comfort</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <a href="./index.html"><h1>Heavenly Homes</h1></a>
+        
+        <div class = "right-side">
+          <a href="./login.html"><button class = "btn login">Login</button></a>
+          <a href="./signup.html"><button class = "btn sign-up">Sign up</button></a>
+          <div class="cart-btn">
+            <span class="nav-icon "> <i class="fas fa-cart-plus"></i> </span>
+            <div class="cart-items">0</div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- hero -->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">Comfortable & Elegant</h1>
+        <button class="banner-btn">shop now</button>
+      </div>
+    </header>
+    <!-- end of hero -->
+    
+    <!-- products -->
+    <section class="products">
+      <div class="section-title"><h2>our products</h2></div>
+      <div class="products-center"></div>
+    </section>
+    <!-- end of products -->
+
+    <!-- contact  -->
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <p class="heading-sec__sub heading-sec__sub--lt">
+              Email: HeavenlyHomes@gmail.com
+          </p>
+          <p class="heading-sec__sub heading-sec__sub--lt">
+            Numbers: +963 0785381816 Or +963 1593574682
+        </p>
+      <p class="heading-sec__sub heading-sec__sub--lt">
+       Instagram: @Heavenly_Homes
+    </p>
+    <p class="heading-sec__sub heading-sec__sub--lt">
+      Twitter: @Heavenly_Homes
+  </p>
+        </h2>
+      </div>
+    </section>
+    <!-- end contact  -->
+    <!-- Start of footer  -->
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./images/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./images/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Heavenly Homes</h4>
+            <p class="main-footer__short-desc">
+              A business that prioritizes your Comfort And Your sleep quality.
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2023
+        </div>
+      </div>
+    </footer>
+    <!-- END Of Footer -->
+    <!-- cart -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart"> <i class="fas fa-window-close"></i> </span>
+        <h2>your cart</h2>
+        <div class="cart-content"><!-- cart item here --></div>
+        <div class="cart-footer">
+          <h3>your total: $<span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">clear cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- end of cart -->
+    
+    <!-- contenful -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <!-- appjs -->
+    <script src="app.js"></script>
+  </body>
+</html>
